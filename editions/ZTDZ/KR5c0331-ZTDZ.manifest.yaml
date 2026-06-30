@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0331/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0331/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 巨勝歌
+  date: '2015-08-29 00:56:12.315580'
+  source:
+    repository: kanripo
+    path: KR5c0331
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0331_000-ZTDZ.yaml, hash: 'sha256:844bdf7140f114fcfcc14b65135b2762e166a1ac0fa7e1fbda06961f9d4feacf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0331_000-ZTDZ.markers.yaml, hash: 'sha256:be59d95d2fa93b9bfd60baf03a7f9816507678cd670bc49cde964d177f4d6343'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0331_SJB_000-190327a
+    span:
+    - body
+    - 0
+    - 1370
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:2177f8ab83c659746d90e33caee7fdfd8abadbc5f43cf893f16d077fd871bd0b
